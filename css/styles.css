@@ -94,6 +94,20 @@ body {
   font-weight: 700;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
 .btn--ghost {
   color: var(--color-primary);
 }
@@ -441,4 +455,8 @@ body {
 
 .job-card__button:active {
   transform: scale(0.90);
+}
+
+.is-hidden {
+  display: none;
 }
