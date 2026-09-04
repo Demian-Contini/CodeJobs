@@ -72,3 +72,13 @@ function filterJobs() {
 searchInput.addEventListener('input', filterJobs);
 technologyFilter.addEventListener('change', filterJobs);
 locationFilter.addEventListener('change', filterJobs);
+
+const applyButtons = document.querySelectorAll('.job-card__button');
+
+applyButtons.forEach((button) => {
+  button.addEventListener('click', (event) => {
+    event.preventDefault();
+    button.textContent = '¡Aplicado!';
+    button.classList.add('is-applied');
+  });
+});

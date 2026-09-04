@@ -457,6 +457,11 @@ body {
   transform: scale(0.90);
 }
 
+.job-card__button.is-applied {
+  background-color: #4caf50;
+  pointer-events: none;
+}
+
 .is-hidden {
   display: none;
 }
