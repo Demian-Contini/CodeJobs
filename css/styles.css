@@ -220,7 +220,7 @@ body {
   background-color: var(--color-card-bg);
   padding: 2rem;
   border-radius: 0.5rem;
-  text-align: left;
+  text-align: center;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -233,7 +233,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
 }
 
 .feature-card__icon svg {
