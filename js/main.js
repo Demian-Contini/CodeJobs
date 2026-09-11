@@ -1,45 +1,14 @@
 // Array de datos de empleos (simula lo que en el futuro vendría de una API/base de datos)
-const jobs = [
-  {
-    title: "Ingeniero de Software",
-    company: {
-      name: "Tech Solutions Inc.",
-      location: "Remoto"
-    },
-    description: "Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js."
-  },
-  {
-    title: "Analista de Datos",
-    company: {
-      name: "Data Driven Co.",
-      location: "Ciudad de México"
-    },
-    description: "Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos."
-  },
-  {
-    title: "Desarrollador de Aplicaciones Móviles",
-    company: {
-      name: "Mobile Apps Ltd.",
-      location: "Guadalajara"
-    },
-    description: "Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android."
-  },
-  {
-    title: "Ingeniero de DevOps",
-    company: {
-      name: "Cloud Services SA",
-      location: "Remoto"
-      // nota: a este objeto le falta "salary" a propósito, para probar Optional Chaining
-    },
-    description: "Estamos buscando un ingeniero de DevOps con experiencia en infraestructuras en la nube."
-  }
-];
-
-// Pruebas de Optional Chaining
-console.log(jobs[0].company?.name);        // "Tech Solutions Inc."
-console.log(jobs[3].salary?.min);           // undefined, sin romper la app
-console.log(jobs[3].company?.name);         // "Cloud Services SA"
-
+fetch('js/data.json')
+  .then((response) => response.json())
+  .then((jobs) => {
+    console.log('Tenemos', jobs.length, 'ofertas disponibles');
+    console.log(jobs);
+  })
+  .catch((error) => {
+    console.error('No pudimos obtener los datos', error);
+  });
+git 
 // Referencias a los elementos del DOM que vamos a usar
 const searchInput = document.querySelector('#jobs-search-input');
 const technologyFilter = document.querySelector('#filter-technology');

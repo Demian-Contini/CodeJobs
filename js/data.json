@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "titulo": "Ingeniero de Software",
+    "empresa": "TechCorp",
+    "ubicacion": "Buenos Aires",
+    "descripcion": "Buscamos un ingeniero de software con experiencia en desarrollo web full stack y trabajo en equipo.",
+    "data": {
+      "technology": "javascript",
+      "modalidad": "remoto"
+    }
+  },
+  {
+    "id": "2",
+    "titulo": "Analista de Datos",
+    "empresa": "DataMinds",
+    "ubicacion": "Córdoba",
+    "descripcion": "Buscamos un analista con experiencia en SQL y visualización de datos para unirse a nuestro equipo.",
+    "data": {
+      "technology": "python",
+      "modalidad": "hibrido"
+    }
+  },
+  {
+    "id": "3",
+    "titulo": "Desarrollador de Aplicaciones Móviles",
+    "empresa": "MobileWorks",
+    "ubicacion": "Rosario",
+    "descripcion": "Desarrollador con experiencia en React Native para aplicaciones móviles multiplataforma.",
+    "data": {
+      "technology": "react",
+      "modalidad": "presencial"
+    }
+  },
+  {
+    "id": "4",
+    "titulo": "Ingeniero de DevOps",
+    "empresa": "Cloud Services SA",
+    "ubicacion": "Remoto",
+    "descripcion": "Estamos buscando un ingeniero de DevOps con experiencia en la gestión de infraestructuras en la nube.",
+    "data": {
+      "technology": "nodejs",
+      "modalidad": "remoto"
+    }
+  }
+]
