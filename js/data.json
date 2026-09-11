@@ -7,7 +7,7 @@
     "descripcion": "Buscamos un ingeniero de software con experiencia en desarrollo web full stack y trabajo en equipo.",
     "data": {
       "technology": "javascript",
-      "modalidad": "remoto"
+      "modalidad": "buenos-aires"
     }
   },
   {
@@ -18,18 +18,18 @@
     "descripcion": "Buscamos un analista con experiencia en SQL y visualización de datos para unirse a nuestro equipo.",
     "data": {
       "technology": "python",
-      "modalidad": "hibrido"
+      "modalidad": "cordoba"
     }
   },
   {
     "id": "3",
     "titulo": "Desarrollador de Aplicaciones Móviles",
     "empresa": "MobileWorks",
-    "ubicacion": "Rosario",
+    "ubicacion": "Buenos Aires",
     "descripcion": "Desarrollador con experiencia en React Native para aplicaciones móviles multiplataforma.",
     "data": {
       "technology": "react",
-      "modalidad": "presencial"
+      "modalidad": "buenos-aires"
     }
   },
   {
